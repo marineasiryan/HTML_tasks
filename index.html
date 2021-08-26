@@ -4,7 +4,8 @@
 <head>
 
     <meta charset="utf-8">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> page title</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet"
         type="text/css">
@@ -43,7 +44,7 @@
                     <div class="navItem home">
                         <a href="">HOME</a>
                         <div class="border border_activ"></div>
-                        <div class="border2 border2_activ"></div>
+                        <div class="border2 border_activ"></div>
                     </div>
                     <div class="navItem pages">
                         <a href="">PAGES</a>
@@ -78,6 +79,35 @@
             </div>
         </div>
 
+<!--         
+        <nav class="mediaNav">
+            <div class="medianavItem navItem home">
+                <a href="">HOME</a>
+                <div class="border border"></div>
+                <div class="border2 border2"></div>
+            </div>
+            <div class="medianavItem navItem pages">
+                <a href="">PAGES</a>
+                <div class="border"></div>
+                <div class="border2"></div>
+            </div>
+            <div class="medianavItem navItem portfolio">
+                <a href="">PORTFOLIO</a>
+                <div class="border"></div>
+                <div class="border2"></div>
+            </div>
+            <div class="medianavItem navItem blog">
+                <a href="">BLOG</a>
+                <div class="border"></div>
+                <div class="border2"></div>
+            </div>
+            <div class="medianavItem navItem shop">
+                <a href="">SHOP</a>
+                <div class="border"></div>
+                <div class="border2"></div>
+            </div>
+        </nav> -->
+
         <div class="menu">
             <div class="menu_leftArrow">
                 <div class="linesArrow">
@@ -97,11 +127,11 @@
                         </p>
                     </div>
                     <div class="title">
-                        <img src="images/rev-img.png">
+                        <img class="leftRight_img" src="images/rev-img.png">
                         <p class="title_text">
                             THE BEST DISHES
                         </p>
-                        <img src="images/rev-img.png">
+                        <img class="leftRight_img" src="images/rev-img.png">
                     </div>
                     <div class="subTitle2">
                         <p class="title2_text">
@@ -171,11 +201,11 @@
                     </p>
                 </div>
                 <div class="aboutUs_title">
-                    <img src="images/rev-img.png">
+                    <img class="leftRight_img" src="images/rev-img.png">
                     <p class="aboutUs_title_text">
                         ABOUT US
                     </p>
-                    <img src="images/rev-img.png">
+                    <img class="leftRight_img" src="images/rev-img.png">
                 </div>
                 <div class="aboutUs_subTitle2">
                     <p class="aboutUs_title2_text">
@@ -202,17 +232,17 @@
         <div class="portfolioBlock_titleText">
             <div class="portfolioBlock_titleText_container">
                 <div class="portfolioTitles">
-                    <div class="aboutUs_subTitle">
-                        <p class="aboutUs_susubTitle_text">
+                    <div class="aboutUs_subTitle portfolio_sumtitle">
+                        <p class="aboutUs_susubTitle_text ">
                             Our Story
                         </p>
                     </div>
                     <div class="aboutUs_title">
-                        <img src="images/rev-img.png">
+                        <img class="leftRight_img" src="images/rev-img.png">
                         <p class="aboutUs_title_text portfolioHeadText">
-                            ABOUT US
+                            OUR WORKS
                         </p>
-                        <img src="images/rev-img.png">
+                        <img class="leftRight_img" src="images/rev-img.png">
                     </div>
                     <div class="aboutUs_subTitle2">
                         <p class="aboutUs_title2_text">
@@ -247,11 +277,11 @@
             <div class="footer_contact">
                 <div class="footer_headText">
                     <div class="footer_title">
-                        <img src="images/rev-img.png">
+                        <img class="leftRight_img" src="images/rev-img.png">
                         <p class="footer_title_text">
                             CONTACT US
                         </p>
-                        <img src="images/rev-img.png">
+                        <img class="leftRight_img" src="images/rev-img.png">
                     </div>
                 </div>
                 <div class="footerBlocks">
@@ -293,28 +323,29 @@
                             </p>
                         </div>
                         <div class="smm">
-                            <nav>
-                                <div class="navItem home">
+                            <nav class="footNav">
+                                <div class="navItem footerNavItem">
                                     <a href="">FACEBOOK</a>
-                                    <div class="border border_activ"></div>
-                                    <div class="border2 border2_activ"></div>
+                                    <div class="footerBorder"></div>
+                                    <div class="footerBorder"></div>
                                 </div>
-                                <div class="navItem pages">
+                                <div class="navItem footerNavItem">
                                     <a href="">INSTAGRAM</a>
-                                    <div class="border"></div>
-                                    <div class="border2"></div>
+                                    <div class="footerBorder"></div>
+                                    <div class="footerBorder"></div>
                                 </div>
-                                <div class="navItem portfolio">
+                                <div class="navItem footerNavItem">
                                     <a href="">LINKEDIN</a>
-                                    <div class="border"></div>
-                                    <div class="border2"></div>
+                                    <div class="footerBorder"></div>
+                                    <div class="footerBorder"></div>
                                 </div>
                             </nav>
                         </div>
                     </div>
 
 
-                    <!-- <div class="moreUs foothide">
+                    
+                        <!-- <div class="moreUs foothide">
                         <div class="footer_subTitle">
                             <p class="footer_susubTitle_text">
                                 Read to Us
@@ -334,7 +365,7 @@
                             </p>
                         </div>
                         <div class="smm">
-                            <nav>
+                            <nav class="footerHide_links">
                                 <div class="navItem home">
                                     <a href="">FACEBOOK</a>
                                     <div class="border border_activ"></div>
@@ -352,11 +383,11 @@
                                 </div>
                             </nav>
                         </div>
-                    </div>
+                    </div> 
+
+
+
  -->
-
-
-
 
                 </div>
             </div>
@@ -370,6 +401,8 @@
             </div>
         </div>
     </footer>
+
+    
     <div class="line_left"></div>
     <div class="line_right"></div>
 </body>
